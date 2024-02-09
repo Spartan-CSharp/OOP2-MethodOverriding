@@ -10,6 +10,15 @@ namespace MethodOverride
 	{
 		static void Main(string[] args)
 		{
+			PersonModel person = new PersonModel
+			{
+				FirstName = "Tim",
+				LastName = "Corey"
+			};
+
+			Console.WriteLine(person);
+
+			_ = Console.ReadLine();
 		}
 	}
 }
